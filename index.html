@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kalyan Perumalla | Senior Power BI Developer</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#f8f9fc;
+color:#222;
+}
+
+.container{
+width:90%;
+max-width:1200px;
+margin:auto;
+}
+
+header{
+background:white;
+padding:20px 0;
+position:sticky;
+top:0;
+z-index:100;
+box-shadow:0 2px 10px rgba(0,0,0,0.05);
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+font-size:24px;
+font-weight:700;
+color:#0d2d6c;
+}
+
+.nav-links{
+display:flex;
+gap:30px;
+}
+
+.nav-links a{
+text-decoration:none;
+color:#333;
+font-weight:500;
+}
+
+.hero{
+padding:80px 0;
+display:flex;
+align-items:center;
+justify-content:space-between;
+flex-wrap:wrap;
+}
+
+.hero-left{
+flex:1;
+min-width:350px;
+}
+
+.hero-left h4{
+font-size:30px;
+font-weight:400;
+margin-bottom:10px;
+}
+
+.hero-left h1{
+font-size:60px;
+color:#0d2d6c;
+margin-bottom:20px;
+}
+
+.hero-left h2{
+font-size:32px;
+margin-bottom:25px;
+}
+
+.hero-left p{
+font-size:18px;
+line-height:1.8;
+max-width:600px;
+}
+
+.buttons{
+margin-top:30px;
+}
+
+.btn{
+padding:14px 28px;
+border-radius:8px;
+text-decoration:none;
+margin-right:15px;
+font-weight:600;
+}
+
+.primary{
+background:#0d2d6c;
+color:white;
+}
+
+.secondary{
+border:2px solid #0d2d6c;
+color:#0d2d6c;
+}
+
+.hero-right img{
+width:350px;
+border-radius:50%;
+box-shadow:0 20px 40px rgba(0,0,0,0.1);
+}
+
+.stats{
+background:white;
+padding:40px;
+margin-top:40px;
+border-radius:20px;
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:30px;
+text-align:center;
+box-shadow:0 5px 20px rgba(0,0,0,0.05);
+}
+
+.stat h2{
+font-size:38px;
+color:#0d2d6c;
+}
+
+.section{
+padding:90px 0;
+}
+
+.section-title{
+text-align:center;
+font-size:42px;
+margin-bottom:60px;
+color:#0d2d6c;
+}
+
+.skills{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.skill-card{
+background:white;
+padding:30px;
+border-radius:15px;
+text-align:center;
+box-shadow:0 5px 20px rgba(0,0,0,0.05);
+}
+
+.skill-card h3{
+color:#0d2d6c;
+margin-bottom:10px;
+}
+
+.timeline{
+max-width:900px;
+margin:auto;
+}
+
+.job{
+background:white;
+padding:30px;
+margin-bottom:25px;
+border-radius:15px;
+box-shadow:0 5px 20px rgba(0,0,0,0.05);
+}
+
+.job h3{
+color:#0d2d6c;
+}
+
+.job ul{
+padding-left:20px;
+margin-top:15px;
+}
+
+.job li{
+margin-bottom:8px;
+}
+
+.projects{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:25px;
+}
+
+.project-card{
+background:white;
+padding:30px;
+border-radius:15px;
+box-shadow:0 5px 20px rgba(0,0,0,0.05);
+}
+
+.project-card h3{
+color:#0d2d6c;
+margin-bottom:15px;
+}
+
+.contact{
+text-align:center;
+}
+
+.contact a{
+display:inline-block;
+margin:10px;
+text-decoration:none;
+color:white;
+background:#0d2d6c;
+padding:12px 25px;
+border-radius:8px;
+}
+
+footer{
+background:#0d2d6c;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:50px;
+}
+
+@media(max-width:768px){
+
+.hero{
+flex-direction:column;
+text-align:center;
+}
+
+.hero-left h1{
+font-size:42px;
+}
+
+.stats{
+grid-template-columns:repeat(2,1fr);
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="container">
+<nav>
+<div class="logo">Kalyan Perumalla</div>
+
+<div class="nav-links">
+<a href="#skills">Skills</a>
+<a href="#experience">Experience</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</div>
+</nav>
+</div>
+</header>
+
+<section class="hero container">
+
+<div class="hero-left">
+
+<h4>Hello, I'm</h4>
+
+<h1>Kalyan Perumalla</h1>
+
+<h2>Senior Power BI Developer & BI Consultant</h2>
+
+<p>
+13+ years of IT experience and 8+ years specializing in Power BI,
+SQL, DAX, Power Query, Data Modeling, Power BI Administration,
+and Enterprise Analytics Solutions.
+</p>
+
+<div class="buttons">
+<a href="#projects" class="btn primary">View Projects</a>
+<a href="resume.pdf" class="btn secondary">Download CV</a>
+</div>
+
+</div>
+
+<div class="hero-right">
+<img src="profile.jpg" alt="Profile Photo">
+</div>
+
+</section>
+
+<div class="container">
+
+<div class="stats">
+
+<div class="stat">
+<h2>13+</h2>
+<p>Years Experience</p>
+</div>
+
+<div class="stat">
+<h2>100+</h2>
+<p>Dashboards Built</p>
+</div>
+
+<div class="stat">
+<h2>8+</h2>
+<p>Years Power BI</p>
+</div>
+
+<div class="stat">
+<h2>5+</h2>
+<p>Developers Mentored</p>
+</div>
+
+</div>
+
+</div>
+
+<section id="skills" class="section container">
+
+<h2 class="section-title">Technical Skills</h2>
+
+<div class="skills">
+
+<div class="skill-card">
+<h3>Power BI</h3>
+<p>Desktop, Service, Premium</p>
+</div>
+
+<div class="skill-card">
+<h3>SQL & Snowflake</h3>
+<p>Advanced Query Development</p>
+</div>
+
+<div class="skill-card">
+<h3>DAX & Power Query</h3>
+<p>Data Modeling & Analytics</p>
+</div>
+
+<div class="skill-card">
+<h3>CI/CD</h3>
+<p>GitHub & Deployment Pipelines</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="experience" class="section container">
+
+<h2 class="section-title">Professional Experience</h2>
+
+<div class="timeline">
+
+<div class="job">
+<h3>Mphasis | Senior Power BI Lead</h3>
+<p>Oct 2022 - Present</p>
+
+<ul>
+<li>Delivered 100+ enterprise dashboards.</li>
+<li>Managed DEV, UAT, PROD workspaces.</li>
+<li>Configured Power BI Gateways.</li>
+<li>Implemented Deployment Pipelines.</li>
+<li>Mentored 5 BI Developers.</li>
+</ul>
+
+</div>
+
+<div class="job">
+<h3>Cyient | Data Analyst / Power BI Developer</h3>
+<p>May 2012 - Jun 2022</p>
+
+<ul>
+<li>Developed ETL solutions.</li>
+<li>Built operational KPI dashboards.</li>
+<li>Reduced manual effort by 40%.</li>
+<li>Automated reporting processes.</li>
+</ul>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="projects" class="section container">
+
+<h2 class="section-title">Portfolio Projects</h2>
+
+<div class="projects">
+
+<div class="project-card">
+<h3>Sales Analytics Dashboard</h3>
+<p>Executive-level sales reporting with advanced KPIs.</p>
+</div>
+
+<div class="project-card">
+<h3>HR Analytics Dashboard</h3>
+<p>Workforce insights and attrition analytics.</p>
+</div>
+
+<div class="project-card">
+<h3>Executive KPI Dashboard</h3>
+<p>Business performance monitoring solution.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="contact" class="section container contact">
+
+<h2 class="section-title">Contact Me</h2>
+
+<a href="mailto:venkatkalyanbabu@gmail.com">Email Me</a>
+
+<a href="https://linkedin.com/in/yourprofile">
+LinkedIn
+</a>
+
+</section>
+
+<footer>
+© 2025 Kalyan Perumalla | Senior Power BI Developer
+</footer>
+
+</body>
+</html>
